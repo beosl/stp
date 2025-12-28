@@ -1,0 +1,10 @@
+142.111.48.253:7030:jcxdpifq:ssnt60d60wks
+31.59.20.176:6754:jcxdpifq:ssnt60d60wks
+23.95.150.145:6114:jcxdpifq:ssnt60d60wks
+198.23.239.134:6540:jcxdpifq:ssnt60d60wks
+107.172.163.27:6543:jcxdpifq:ssnt60d60wks
+198.105.121.200:6462:jcxdpifq:ssnt60d60wks
+64.137.96.74:6641:jcxdpifq:ssnt60d60wks
+84.247.60.125:6095:jcxdpifq:ssnt60d60wks
+216.10.27.159:6837:jcxdpifq:ssnt60d60wks
+142.111.67.146:5611:jcxdpifq:ssnt60d60wks
